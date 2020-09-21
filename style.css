@@ -1,0 +1,270 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    padding: 0;
+    margin: 0;
+}
+.sec1{
+    background-image: url(https://images.pexels.com/photos/3815580/pexels-photo-3815580.jpeg?cs=srgb&dl=pexels-bongkarn-thanyakij-3815580.jpg&fm=jpg) ;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100vh;
+}
+
+.container-fluid{
+    width:100%;
+}
+.sec1 .h1{
+    color: white;
+    margin: 110px 0 0 20px;
+}
+.sec1 .h1 span{
+    color:  #22c8fc;
+}
+.sec1 .h6{
+    color: white;
+    margin: 0 0 0 20px;
+}
+.sec1 .h3{
+    color: white;
+    margin: 90px 0 0 20px;
+}
+.sec1 .h6-about{
+    width: 360px;
+    color: white;
+    margin: 0 0 0 20px;
+}
+
+.btn {
+    background: transparent;
+color: rgb(255, 254, 254);
+border-radius: 62px;
+border-color: #22c8fc;
+padding: 8px 18px;
+font-weight: bold;
+font-size: 20px;
+margin: 2.2em 0 0 20px;
+}
+.btn:hover{
+    background-color:#22c8fc; 
+}
+.fas.fa-book{
+    margin-left: 0.2em;
+    margin-bottom: 0.4em;
+    color: #22c8fc;
+    font-size: 28px;
+}
+.fas.fa-cog{
+    margin-left: 0.2em;
+    margin-bottom: 0.4em;
+    color: #22c8fc;
+    font-size: 28px;
+}
+.fas.fa-images{
+    margin-left: 0.2em;
+    margin-bottom: 0.4em;
+    color: #22c8fc;
+    font-size: 28px;
+}
+.services{
+    text-align: center;
+    margin: 80px;
+    font-weight: normal;
+}
+.services span{
+    color: #22c8fc;
+}
+.col-sm{
+    border: grey,1px,solid;
+    margin: 30px;
+    padding: 30px 10px 10px 10px;
+    box-shadow:  3px 3px 3px 3px rgb(192, 189, 189);
+
+}
+.progress-bar{
+    background-image: url(images/images.jpg) ;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100vh;
+    margin-top: 6em;
+    margin-bottom: 5em;
+    
+}
+.skillslist{
+    color: black;
+    text-align: start;
+    margin-left: 46em;
+    margin-top: 9em;
+   
+    }
+    .skillslist h3{
+       margin-bottom: 2em;
+        font-weight: normal;
+    }
+    .skillslist span{
+        color: #22c8fc;
+    }
+.skillslist ul {
+    list-style: none;
+}
+.skillslist progress{
+    display: block;
+    width: 400px;
+}
+
+.btn2{background: transparent;
+    color: rgb(8, 0, 0);
+    border-radius: 62px;
+    border-color: #22c8fc;
+    padding: 8px 18px;
+    font-weight: bold;
+    font-size: 20px;
+    position: relative;
+    left: 12em;
+    top:1.3em;
+    
+   
+     }
+
+.btn2:hover{
+    background: #22c8fc;
+    color: blanchedalmond;
+    cursor: pointer;
+}
+.icons-sec{
+    margin-bottom: -5em;
+background-image: url(https://i.pinimg.com/originals/eb/43/e2/eb43e2e34889c891b4f6e66f44aa0dff.jpg);
+width: 100%;
+height: 50vh;
+}
+.text-center{
+    margin-top: 7em;
+    color: white;
+}
+.fas.fa-star{
+    color: #0a2c2c;
+    font-size: 40px;
+    margin-bottom: .5em;
+}
+.fas.fa-share-alt{
+    color: #0a2c2c;
+    font-size: 40px;
+    margin-bottom: .5em;
+}
+.fas.fa-people-carry{
+    color: #0a2c2c;
+    font-size: 40px;
+    margin-bottom: .5em;
+}
+.fas.fa-folder{
+    color: #0a2c2c;
+    font-size: 40px;
+    margin-bottom: .5em;
+}
+.flex{
+display: flex;
+flex-wrap: wrap;
+text-align: center;
+}
+.flex img{
+    clip-path: circle(30%);
+    height: 280px;
+    width: 280px;
+    justify-content: space-between;
+    padding: 3em;
+    align-items: center;
+}
+.my-team{
+    color: rgb(0, 0, 0);
+    margin-top: 6em;
+    font-weight: normal;
+}
+.my-team span{
+    color:#22c8fc;
+    
+}
+.client-card img{
+    width: 200px;
+    height: 200px;
+    clip-path: circle(40%);
+
+}
+.card{
+    margin-top: 4em;
+    align-items: center;
+    text-align: center;
+}
+.footer p{
+    color: #22c8fc;
+}
+.my-clients{
+    color: rgb(0, 0, 0);
+    margin-top: 3em;
+    font-weight: normal;
+    padding-top: 2em;
+}
+.my-clients span{
+    color:#22c8fc;
+    
+}
+.clients{
+    width: 100%;
+    background-color: rgba(240, 240, 240, 0.884);
+}
+.card-img{
+    height:200px;
+    width: 100%;
+}
+.card-body i{
+    padding-left: 5px;
+    display: inline;
+    color: #22c8fc;
+}
+.card-body h6{
+    display: inline;
+    font-weight: normal;
+}
+.read-more{
+    border: none;
+    color: #22c8fc;
+    background: transparent;
+}
+.my-portfolio{
+    color: rgb(0, 0, 0);
+    margin-top: 3em;
+    margin-left: 3em;
+    font-weight: normal;
+    padding-top: 2em;
+}
+.my-portfolio span{
+    color:#22c8fc;
+    
+}
+.latest-news{
+    color: rgb(0, 0, 0);
+    margin-top: 3em;
+    font-weight: normal;
+    padding-top: 2em;
+}
+.latest-news span{
+    color:#22c8fc;
+    
+}
+.footer{
+    text-align: center;
+    width: 100%;
+    margin-top: 10em;
+    background: rgb(22, 21, 78);
+    
+}
+.footer i{
+    color: #22c8fc;
+    
+}
+
+
